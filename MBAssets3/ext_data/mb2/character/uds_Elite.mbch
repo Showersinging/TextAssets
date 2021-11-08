@@ -3,31 +3,20 @@
 ClassInfo
 {
 	name  "uds_Elite"
-	weapons WP_FLECHETTE|WP_BLASTER_PISTOL|WP_MELEE|WP_TRIP_MINE
+	weapons WP_FLECHETTE|WP_BLASTER_PISTOL|WP_MELEE|WP_CONC_NADE
 	attributes  MB_ATT_PISTOL,2|MB_ATT_A280,3|MB_ATT_AMMO,3|MB_ATT_ARMOUR,2|MB_ATT_HEALING,2|MB_ATT_MICRO_GRENADES,1|MB_ATT_ASSEMBLE,1
 	maxhealth 80
 	maxarmor  45
-	model "jedi"
-	skin  "oldrepsold_rgb"
+	model "rebel_gag"
+	skin  "grenadier"
 	customred  0.15
 	customgreen  0.15
 	customblue  0.15
-	uishader  "models/players/jedi/mb2_icon_oldrepsold"
+	uishader  "models/players/rebel_gag/mb2_icon_grenadier"
 	MBClass MB_CLASS_ELITETROOPER
 	classNumberLimit	2
 	extralives	1
 }
-
-WeaponInfo0
-{
-	WeaponToReplace WP_TRIP_MINE       			
-	WeaponBasedOff  WP_TRIP_MINE   
-	NewWorldModel "models/weapons2/V-59_Concussion/V-59_conc_w.glm"
-	NewViewModel  "models/weapons2/V-59_Concussion/V-59_conc.md3"
-	Icon  "gfx/hud/w_icon_V-59_conc"
-	WeaponName  "V-59 Concussion Grenade"   			
-}
-
 
 description	"Rebel Elite Trooper
 

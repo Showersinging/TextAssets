@@ -5,15 +5,15 @@
 ClassInfo
 {
 	name				"uM_ctf_dexterity_blue"
-	weapons				WP_MELEE|WP_BRYAR_OLD|WP_THERMAL|WP_SABER
+	weapons				WP_MELEE|WP_BRYAR_OLD|WP_FRAG_NADE|WP_SABER
 	saber1				ot_dual_knives
 	saber2				ot_dual_knives
 	saberstyle			SS_DUAL
 	maxhealth			40
 	maxArmor 			100
-	model			"lando" 
-	skin			"blue"
-	uishader		"models/players/lando/mb2_icon_default"
+	model				"lando" 
+	skin				"blue"
+	uishader			"models/players/lando/mb2_icon_default"
 	MBClass				MB_CLASS_ARCTROOPER
 	extralives			2
 	attributes			MB_ATT_PISTOL,3|MB_ATT_DEXTERITY,3|MB_ATT_STAMINA,2|MB_ATT_AMMO,3
@@ -24,8 +24,9 @@ ClassInfo
 	classNumberLimit	3
 	modelscale 			1
 	holdables		HI_BINOCULARS
-	rateOfFire 0.5
-	damageGiven 0.4
+	rateOfFire 		0.8
+	damageGiven 	0.4
+	respawnCustomTime 15
 
 }
 
@@ -53,8 +54,8 @@ WeaponInfo0
 
 WeaponInfo1
 {
-	WeaponToReplace			WP_THERMAL
-	WeaponBasedOff			WP_THERMAL
+	WeaponToReplace			WP_FRAG_NADE
+	WeaponBasedOff			WP_FRAG_NADE
 	NewWorldModel			"models/weapons2/blackegg/thermal_w.glm"
 	NewViewModel			"models/weapons2/blackegg/thermal.md3"
 	MissileModel 			"models/weapons2/blackegg/thermal_proj.md3"
@@ -83,9 +84,9 @@ WeaponInfo2
 
 description	"Attacker
 
-Smoke Bomb (2)
-Dual Projectile Pistols
-	
+Flash Grenade (2)
+Dual Pistols
+Binoculars
 Stammina (2)
 Dexterity (3)
 

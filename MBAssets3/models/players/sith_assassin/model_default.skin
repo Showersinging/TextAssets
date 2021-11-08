@@ -1,3 +1,8 @@
+headc,*off
+
+head_h2,*off
+mouth_h2,*off
+
 heada,models/players/sith_assassin/head.tga
 
 torsoa,models/players/sith_assassin/body.tga

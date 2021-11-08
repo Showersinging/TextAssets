@@ -26,14 +26,38 @@ We have them now."
 
 mapgraphic "gfx/mplevels/mb2_SDestroyer/map"
 missionname "Imperial Star Destroyer"
-radartopleft "-1152, 8064"
-radarbottomright "8000, -3776"
+radartopleft "-832, 7168"
+radarbottomright "8256, -1920"
 AutoMap
 {
 	AutoMap0
 	{
 		radargraphic "gfx/automap/mb2_SDestroyer"
 		radargraphicfull "gfx/automap/mb2_SDestroyerfull"
+	}
+}
+
+HelpIcons
+{
+	//Side Hack
+	HelpIcon0
+	{
+		end0 "t7"
+		origin "4908 3596 36"
+		redicon HLP_HACK_SUB
+		blueicon HLP_DEFEND_SUB
+		specicon HLP_DEFEND_SUB
+		sideobjective 1
+	}
+	
+	//Turret Hack
+	HelpIcon1
+	{
+		end0 "t9"
+		origin "2792 6184 32"
+		redicon HLP_HACK
+		blueicon HLP_DEFEND
+		specicon HLP_DEFEND
 	}
 }
 

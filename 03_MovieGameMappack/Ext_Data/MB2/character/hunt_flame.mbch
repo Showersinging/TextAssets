@@ -4,7 +4,7 @@ ClassInfo
 {
 	name			"hunt_flame"
 	weapons			WP_MELEE|WP_BLASTER|WP_REPEATER
-	attributes		MB_ATT_BLASTER,2|MB_ATT_ARMOUR,3|MB_ATT_AMMO,3||MB_CLONERIFLE,3|MB_ATT_BLASTER,3
+	attributes		MB_ATT_BLASTER,2|MB_ATT_ARMOUR,3|MB_ATT_AMMO,3||MB_ATT_CLONERIFLE,3|MB_ATT_BLASTER,3
 	maxhealth		120
 	model			"jedi"
 	skin			"redjp"
@@ -19,7 +19,7 @@ ClassInfo
 WeaponInfo0
 {
 	WeaponToReplace		WP_BLASTER
-	WeaponBasedOff		WP_THERMAL
+	WeaponBasedOff		WP_BLASTER
 	NewWorldModel		"models/weapons2/mossberg/golan_arms_w.glm"
 	NewViewModel		"models/weapons2/mossberg/golan_arms.md3"
 	Icon			"models/weapons2/mossberg/icon.png"
@@ -39,7 +39,7 @@ WeaponInfo0
 WeaponInfo1
 {
 	WeaponToReplace		WP_REPEATER
-	WeaponBasedOff		WP_THERMAL
+	WeaponBasedOff		WP_REPEATER
 	NewWorldModel		"models/weapons2/reflamer/reflamer.glm"
 	NewViewModel		"models/weapons2/reflamer/reflamer.md3"	
 	Icon			"gfx/mplevels/revil/icon_reflamer"

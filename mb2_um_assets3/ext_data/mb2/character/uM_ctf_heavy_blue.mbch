@@ -4,7 +4,7 @@ ClassInfo
 {
 	name			"uM_ctf_heavy_blue"
 	weapons			WP_DEMP2|WP_REPEATER|WP_MELEE
-	attributes		MB_ATT_PISTOL,2|MB_ATT_BLASTER,3|MB_ATT_ARMOUR,3|MB_ATT_AMMO,2|MB_ATT_STRENGTH,3
+	attributes		MB_ATT_PISTOL,2|MB_ATT_BLASTER,3|MB_ATT_ARMOUR,3|MB_ATT_AMMO,2|MB_ATT_WOOKIE_STRENGTH,3
 	maxhealth		400
 	model			"durge" 				//this is optional, if it's here it forces the model to this.
 	skin			"default"					//this is optional, if it's here it forces the skin to this.
@@ -15,6 +15,7 @@ ClassInfo
 	modelscale		1.25
 	speed			0.9
 	WP_RepeaterFlags HELD_LOWDAMAGE
+	respawnCustomTime 10
 }
 
 WeaponInfo0
@@ -31,6 +32,9 @@ WeaponInfo0
 
 description	"Heavy
 
+Attributes:
+Strength (3)
+
 Weapons:
-Pistol
+Pistol (2)
 Minigun"

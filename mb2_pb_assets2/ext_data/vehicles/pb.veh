@@ -173,7 +173,7 @@ turnWhenStopped		0
 //traction			100
 friction			100
 maxSlope			0.7
-mass				30000
+mass				15000
 
 armor 		300
 
@@ -491,6 +491,8 @@ noFireball     1
 
 flammable    0
 
+GroundTrace 1 //set to 1 for droidekas
+
 weap1      morgan_laser
 weap1Delay    320
 weap1AmmoMax    500
@@ -567,7 +569,7 @@ turnWhenStopped	0
 //traction		14
 friction		18 //9
 maxSlope		0.1
-mass			20000
+mass			15000
 armor 			700
 toughness 		40
 model			wampa

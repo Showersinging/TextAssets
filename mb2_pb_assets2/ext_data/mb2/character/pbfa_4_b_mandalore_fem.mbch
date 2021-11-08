@@ -3,8 +3,8 @@
 ClassInfo
 {
 	name			"pbfa_4_b_mandalore_fem"
-	weapons		    WP_MELEE|WP_ROCKET_LAUNCHER|WP_THERMAL|WP_BRYAR_OLD
-	attributes		MB_ATT_PISTOL,3|MB_ATT_BLAST_ARMOUR|MB_ATT_THERMALS,2|MB_ATT_ROCKET,1|MB_ATT_JETPACK|MB_ATT_FLAMETHROWER|MB_ATT_FUEL,3|MB_ATT_CORTOSIS,2|MB_ATT_BLAST_ARMOUR|MB_ATT_MAGNETIC_PLATING|MB_ATT_AMMO,3|MB_ATT_PLX1,1
+	weapons		    WP_MELEE|WP_ROCKET_LAUNCHER|WP_FRAG_NADE|WP_BRYAR_OLD
+	attributes		MB_ATT_PISTOL,3|MB_ATT_BLAST_ARMOUR|MB_ATT_FRAGS,2|MB_ATT_ROCKET,1|MB_ATT_JETPACK|MB_ATT_FLAMETHROWER|MB_ATT_FUEL,3|MB_ATT_CORTOSIS,2|MB_ATT_BLAST_ARMOUR|MB_ATT_MAGNETIC_PLATING|MB_ATT_AMMO,3|MB_ATT_PLX1,1
 	classflags		CFL_NO_JETPACK_OVERHEAT|CFL_NO_JETPACK_COOLDOWN|CFL_STRONGAGAINSTPHYSICAL|CFL_FUEL_REGENERATION|CFL_AKIMBOPISTOL3
 	maxhealth		100
 	maxarmor		100
@@ -25,20 +25,20 @@ ClassInfo
 	customgreen		0.3
 	customblue		0.3
 	
-jetpackThrustEffect "jetpack/thrust"
-//jetpackThrustEffectEnhanced1 "effects/jetpack/thrust"
-//jetpackThrustEffectEnhanced2	"directory/nameofenhancedeffect"
-jetpackIdleEffect "jetpack/idle"
-//jetpackIdleEffectEnhanced1 "directory/nameofeffect" 
-//jetpackIdleEffectEnhanced2	"directory/nameofeffect"  
+	jetpackThrustEffect "null/null"
+	jetpackThrustEffectEnhanced1 "null/null"
+	jetpackThrustEffectEnhanced2	"null/null"
+	jetpackIdleEffect "null/null"
+	jetpackIdleEffectEnhanced1 "null/null" 
+	jetpackIdleEffectEnhanced2	"null/null"  
 jetpackThrustSound	"sound/jetpack/thrust"
 jetpackIdleSound		"sound/jetpack/idle"
 jetpackStartSound	"sound/jetpack/ignite"
 //jetpackJetOffset  	"8.0 -6.2 20"
 //jetpackJet2Offset  	"8.0 6.2 20"
 //jetpackJetAngles  	#.# #.# #.#
-//jetpackJetTag	"*jetpack_torso"
-//jetpackJet2Tag	"*jetpack_torso"
+jetpackJetTag	"*torso"
+jetpackJet2Tag	"*torso"
 
 }
 
@@ -61,8 +61,8 @@ WeaponInfo0
 
 WeaponInfo1
 {
-	WeaponToReplace			WP_THERMAL
-	WeaponBasedOff			WP_THERMAL
+	WeaponToReplace			WP_FRAG_NADE
+	WeaponBasedOff			WP_FRAG_NADE
 	NewWorldModel			"models/weapons2/Stormi_TD/StormiTD_w.glm"
 	NewViewModel			"models/weapons2/Stormi_TD/StormiTD.md3"
 	MissileModel 			"models/weapons2/Stormi_TD/StormiTD_proj.md3"
