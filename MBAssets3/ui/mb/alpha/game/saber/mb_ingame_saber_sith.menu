@@ -240,7 +240,7 @@
 			{
 				play			"sound/interface/choose_blade.wav"
 				setitemcolor	darkicon forecolor 1 1 1 1
-				setcvar			ui_saber1_hue 1.0f
+				setcvar			ui_saber1_hue 0
 			}
 		}
 
@@ -269,7 +269,7 @@
 			{
 				play			"sound/interface/choose_blade.wav"
 				setitemcolor	darkicon2 forecolor 1 1 1 1
-				setcvar			ui_saber2_hue 1.0f
+				setcvar			ui_saber2_hue 0
 			}
 		}
 
